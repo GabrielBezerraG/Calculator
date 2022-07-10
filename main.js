@@ -11,6 +11,7 @@ const screen = document.querySelector('[data-screen]');
 const equal = document.querySelector('[data-equal]');
 const dot = document.querySelector('[data-dot]');
 const clear = document.querySelector('[data-clear]');
+const backspace = document.querySelector('[data-backspace]');
 const operators = document.querySelectorAll('[data-operator]');
 const buttons = document.querySelectorAll('[data-button]');
 
@@ -58,6 +59,11 @@ clear.addEventListener('click', ()=> {
    screen.value = operation;
    addDecimalPoint = true;
 });
+
+backspace.addEventListener('click', ()=> {
+   operation.pop();
+   screen.value = operation.join('');
+})
 
 equal.addEventListener('click', ()=> {
    checkLastCharacter();
