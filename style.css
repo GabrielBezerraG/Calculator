@@ -83,11 +83,11 @@ body {
    background: var(--operator-hover);
 }
 
-.number, .clear, .dot {
+.number, .clear, .dot, .backspace {
    background: var(--light-grey);
 }
 
-.number:hover, .clear:hover, .dot:hover {
+.number:hover, .clear:hover, .dot:hover, .backspace:hover {
    background: var(--light-grey-hover);
 }
 
@@ -97,7 +97,7 @@ body {
    background: var(--equal);
    transition: 0.2s all;
    flex-grow: 1;
-   grid-area: 4/4/8/5;
+   grid-area: 5/4/8/5;
 }
 
 .equal:hover {
@@ -116,6 +116,13 @@ body {
    grid-area: 7/2/8/3;
 }
 
+.backspace {
+   grid-area: 4/4/5/5;
+   font-size: 1.2rem;
+}
+
+
+
 @media screen and (min-width: 525px) {
 
    body {
@@ -131,5 +138,9 @@ body {
 
    .screen {
       font-size: 2rem;
+   }
+
+   .backspace {
+      font-size: 1.4rem;
    }
 }
