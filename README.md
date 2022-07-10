@@ -1,4 +1,4 @@
-# Calculadora &nbsp; 🇧🇷
+# Calculadora &nbsp;🇧🇷
 Calculadora com layout simples e responsivo desenvolvido com HTML, CSS e JavaScript. Além disso, foram utilizados módulos ES6 e CSS Grid no projeto. Todo o código foi escrito em inglês. [Link para a página](https://gabrielbezerrag.github.io/Calculator/)
 
 ## Funcionalidades
@@ -18,7 +18,7 @@ Não se esqueça! Se você abrir o arquivo HTML diretamente no browser não cons
 
 <p>&nbsp;</p>
 
-# Calculator  &nbsp; 🇺🇸
+# Calculator  &nbsp;🇺🇸
 Calculator with a simple and responsive layout developed with only HTML, CSS and JavaScript. In addition to that, ES6 modules and CSS Grid were used in the project. [Link to the page](https://gabrielbezerrag.github.io/Calculator/)
 
 ## Functionalities
