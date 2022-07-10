@@ -50,6 +50,7 @@ body {
    grid-area: 1/1/2/5;
    border: none;
    background-color: var(--screen);
+   width: 100%;
 }
 
 .screen::placeholder {
