@@ -51,6 +51,7 @@ body {
    border: none;
    background-color: var(--screen);
    width: 100%;
+   box-sizing: border-box;
 }
 
 .screen::placeholder {
